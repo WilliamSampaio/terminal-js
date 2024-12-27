@@ -1,5 +1,38 @@
 {
+  "name": "typesnake",
+  "version": "1.0.0",
+  "description": "Classic snake game written in typescript.",
+  "keywords": [
+    "snake",
+    "game",
+    "typescript",
+    "tui",
+    "ui",
+    "terminal",
+    "cli"
+  ],
+  "homepage": "https://github.com/WilliamSampaio/terminal-js#readme",
+  "bugs": {
+    "url": "https://github.com/WilliamSampaio/terminal-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamSampaio/terminal-js.git"
+  },
+  "license": "MIT",
+  "author": "William Sampaio",
+  "type": "commonjs",
+  "bin": {
+    "typesnake": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "terminal-kit": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
   }
 }
